@@ -11,7 +11,7 @@ function App() {
   const [quartermaster, setQuartermaster] = useState(false);
   const [forceMedkit, setMedkit] = useState(false);
   const [forceMeleeTool, setMeleeTool] = useState(false);
-  const [allowDualies, setDualies] = useState(true);
+  const [allowDualies, setDualies] = useState(false);
   const [allowDuplicates, setDuplicates] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -50,6 +50,7 @@ function App() {
             qm={quartermaster} 
             med={forceMedkit}
             melee={forceMeleeTool}
+            dual={allowDualies}
           />
           
         </div>

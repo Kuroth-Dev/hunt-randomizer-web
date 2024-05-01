@@ -4,7 +4,7 @@ import consumesText from "./../resources/images/consumables-text.PNG";
 
 export default function EquipmentDisplay(props){
 
-    let secondarySize = (props.qm ? 2 : 1);
+    let secondarySize = (props.dual ? 3 : props.qm ? 2 : 1);
 
     let result = (<>
         <ItemSlot size={3} />
