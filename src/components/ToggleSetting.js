@@ -1,5 +1,4 @@
-import iconActive from "../resources/images/slider-active.png";
-import iconInactive from "../resources/images/slider-inactive.png";
+import {iconActive, iconInactive}from "../resources/images/index";
 
 export default function ToggleSetting(props){
 
@@ -10,7 +9,11 @@ export default function ToggleSetting(props){
     let icon = props.setting ? iconActive : iconInactive;
 
     return (<>
-        <img src={icon} className="toggleIcon" onClick={handleClick}/>
+        <img src={icon} 
+        className="toggleIcon" 
+        onClick={handleClick} 
+        alt="settings toggle"/>
+
         <p className="toggleText">{props.text}</p>
     </>)
 

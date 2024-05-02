@@ -1,0 +1,17 @@
+export {default as small} from "./small-slot.PNG";
+export {default as smText} from "./small-text.PNG";
+export {default as med} from "./med-slot.PNG";
+export {default as medText} from "./med-text.PNG";
+export {default as large} from "./large-slot.PNG";
+export {default as lgText} from "./large-text.PNG";
+export {default as tool} from "./tool-slot.PNG";
+export {default as medkit} from "./medkit.PNG";
+export {default as melee} from "./melee-weapon.PNG";
+export {default as ammoCompact} from "./ammo-compact.PNG";
+export {default as ammoMed} from "./ammo-medium.PNG";
+export {default as ammoLong} from "./ammo-long.PNG";
+export {default as ammoShotgun} from "./ammo-shotgun.PNG";
+export {default as ammoArrow} from "./ammo-arrow.PNG";
+export {default as ammoBolt} from "./ammo-bolt.PNG";
+export {default as iconActive} from "./slider-active.png";
+export {default as iconInactive} from "./slider-inactive.png";

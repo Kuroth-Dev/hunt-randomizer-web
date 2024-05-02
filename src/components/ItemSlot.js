@@ -1,24 +1,21 @@
-import small from "./../resources/images/small-slot.PNG";
-import smText from "./../resources/images/small-text.PNG";
-import med from "./../resources/images/med-slot.PNG";
-import medText from "./../resources/images/med-text.PNG";
-import large from "./../resources/images/large-slot.PNG";
-import lgText from "./../resources/images/large-text.PNG";
-import tool from "./../resources/images/tool-slot.PNG";
-import medkit from "./../resources/images/medkit.PNG";
-import melee from "./../resources/images/melee-weapon.PNG";
+import {
+    small, smText, med, medText, large, lgText,
+    tool, melee, medkit
+} from "./../resources/images/index";
 
 export default function ItemSlot(props) {
     
     switch (props.size){
         case 1: return (<>
-            <img src={small} alt="weaponslot-small"/>
-            <img src={smText} alt="text"/>
-            </>)
+            <div className="weaponslot">
+                <img src={small} alt="weaponslot-small"/>
+                <img src={smText} alt="text"/>
+            </div></>)
         case 2: return (<>
-            <img src={med} alt="weaponslot-medium"/>
-            <img src={medText} alt="text"/>
-            </>)
+            <div className="weaponslot">
+                <img src={med} alt="weaponslot-medium"/>
+                <img src={medText} alt="text"/>
+            </div></>)
         case 3: return (<>
             <img src={large} alt="weaponslot-large"/>
             <img src={lgText} alt="text"/>
@@ -27,8 +24,8 @@ export default function ItemSlot(props) {
     }
     switch (props.toolId){
         case 0: return(<><img src={tool} alt="tool-slot"/></>);
-        case 1: return(<><img src={melee}/></>);
-        case 2: return(<><img src={medkit}/></>);
+        case 1: return(<><img src={melee} alt="tool-slot"/></>);
+        case 2: return(<><img src={medkit} alt="tool-slot"/></>);
         default: return(<><img src={tool} alt="tool-slot"/></>);
     }
 }

@@ -4,12 +4,15 @@ import consumesText from "./../resources/images/consumables-text.PNG";
 
 export default function EquipmentDisplay(props){
 
-    let secondarySize = (props.dual ? 3 : props.qm ? 2 : 1);
+    let secondarySize = (props.qm ? 2 : 1);
 
     let result = (<>
         <ItemSlot size={3} />
-        <ItemSlot size={secondarySize} />
-        
+        <div className='secondary'>
+            <ItemSlot size={secondarySize} />
+            {props.dual && !props.qm ? <ItemSlot size={1}/> : <></>}
+        </div>
+
         <div className='equipmentRow'>
             <ItemSlot toolId={props.melee ? 1 : 0}/>
             <ItemSlot toolId={props.med ? 2: 0}/>

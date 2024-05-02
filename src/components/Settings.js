@@ -13,6 +13,7 @@ return (<>
     <img className={iconClass} 
         src={icon}
         onClick={handleClick}
+        alt='settings-icon'
     />
 </>)
 }

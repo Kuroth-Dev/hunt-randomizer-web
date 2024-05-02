@@ -1,0 +1,25 @@
+{
+    "tools" : [
+        {"id":0, "name":"Empty", "isMelee": false},
+        {"id":1, "name":"Alert Trip Mine", "isMelee": false, "rank":35},
+        {"id":2, "name":"Blank Fire Decoys", "isMelee":false, "rank":52},
+        {"id":3, "name":"Choke Bomb", "isMelee":false, "rank":1},
+        {"id":4, "name":"Concertina Trip Mine", "isMelee":false, "rank":29},
+        {"id":5, "name":"Decoy Fuses", "isMelee":false, "rank":52},
+        {"id":6, "name":"Decoys", "isMelee":false, "rank":1},
+        {"id":7, "name":"Dusters", "isMelee":true, "rank":1},
+        {"id":8, "name":"Derringer Pennyshot", "isMelee":false, "rank":17},
+        {"id":9, "name":"Electric Lamp", "isMelee":false, "rank":1},
+        {"id":10, "name":"First Aid Kit", "isMelee":false, "rank":1},
+        {"id":11, "name":"Flare Pistol", "isMelee":false, "rank":23},
+        {"id":12, "name":"Fusees", "isMelee":false, "rank":1},
+        {"id":13, "name":"Heavy Knife", "isMelee":true, "rank":5},
+        {"id":14, "name":"Knife", "isMelee":true, "rank":1},
+        {"id":15, "name":"Knuckle Knife", "isMelee":true, "rank":25},
+        {"id":16, "name":"Poison Trip Mine", "isMelee":false, "rank":29},
+        {"id":17, "name":"Quad Derringer", "isMelee":false, "rank":1},
+        {"id":18, "name":"Spyglass", "isMelee":false, "rank":1},
+        {"id":19, "name":"Throwing Axes", "isMelee":false, "rank":8},
+        {"id":20, "name":"Throwing Knives", "isMelee":false, "rank":2}
+    ]
+}
