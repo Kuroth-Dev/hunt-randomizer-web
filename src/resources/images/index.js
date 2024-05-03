@@ -13,5 +13,5 @@ export {default as ammoLong} from "./ammo-long.PNG";
 export {default as ammoShotgun} from "./ammo-shotgun.PNG";
 export {default as ammoArrow} from "./ammo-arrow.PNG";
 export {default as ammoBolt} from "./ammo-bolt.PNG";
-export {default as iconActive} from "./slider-active.png";
-export {default as iconInactive} from "./slider-inactive.png";
+export {default as sliderActive} from "./slider-active.png";
+export {default as sliderInactive} from "./slider-inactive.png";

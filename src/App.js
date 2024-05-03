@@ -20,6 +20,8 @@ function App() {
   ];
 
   const [currentLoadout, setLoadout] = useState(defaultLoadout);
+  const [playerRank, setPlayerRank] = useState(1);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [forceMedkit, setMedkit] = useState(false);
   const [forceMeleeTool, setMeleeTool] = useState(false);
   const [quartermaster, setQuartermaster] = useState(false);
@@ -27,7 +29,6 @@ function App() {
   const [forceAllSlots, setAllSlots] = useState(false);
   const [allowDuplicates, setDuplicates] = useState(true);
   const [allowCustom, setCustom] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   let options = [ 
     forceMedkit,
@@ -36,7 +37,8 @@ function App() {
     forceAllSlots,
     allowDualies,
     allowDuplicates,
-    allowCustom
+    allowCustom,
+    playerRank
   ];
 
   return (

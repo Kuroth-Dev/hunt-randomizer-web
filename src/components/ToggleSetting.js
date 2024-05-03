@@ -1,4 +1,4 @@
-import {iconActive, iconInactive}from "../resources/images/index";
+import {sliderActive, sliderInactive}from "../resources/images/index";
 
 export default function ToggleSetting(props){
 
@@ -6,7 +6,7 @@ export default function ToggleSetting(props){
         props.changeSetting(!props.setting);
     }
 
-    let icon = props.setting ? iconActive : iconInactive;
+    let icon = props.setting ? sliderActive : sliderInactive;
 
     return (<>
         <img src={icon} 

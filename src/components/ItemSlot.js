@@ -17,12 +17,13 @@ export default function ItemSlot(props) {
                 <img src={medText} alt="text"/>
             </div></>)
         case 3: return (<>
-            <img src={large} alt="weaponslot-large"/>
-            <img src={lgText} alt="text"/>
-            </>)
+            <div className="weaponslot">
+                <img src={large} alt="weaponslot-large"/>
+                <img src={lgText} alt="text"/>
+            </div></>)
         default: break;
     }
-    switch (props.toolId){
+    switch (props.placeholderId){
         case 0: return(<><img src={tool} alt="tool-slot"/></>);
         case 1: return(<><img src={melee} alt="tool-slot"/></>);
         case 2: return(<><img src={medkit} alt="tool-slot"/></>);

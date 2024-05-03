@@ -14,17 +14,17 @@ export default function EquipmentDisplay(props){
         </div>
 
         <div className='equipmentRow'>
-            <ItemSlot toolId={props.melee ? 1 : 0}/>
-            <ItemSlot toolId={props.med ? 2: 0}/>
-            <ItemSlot toolId={0}/>
-            <ItemSlot toolId={0}/>
+            <ItemSlot placeholderId={props.melee ? 1 : 0}/>
+            <ItemSlot placeholderId={props.med ? 2: 0}/>
+            <ItemSlot />
+            <ItemSlot />
         </div>
         <img src={toolText} alt='text'/>        
         <div className='equipmentRow'>
-            <ItemSlot toolId={0}/>
-            <ItemSlot toolId={0}/>
-            <ItemSlot toolId={0}/>
-            <ItemSlot toolId={0}/>
+            <ItemSlot />
+            <ItemSlot />
+            <ItemSlot />
+            <ItemSlot />
         </div>
         <img src={consumesText} alt='text'/>
     </>);
